@@ -1,0 +1,22 @@
+/* src/components/Footer.css */
+
+.footer {
+  background-color: #f9f9f9;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: #555;
+  text-align: center;
+  margin-top: 4rem;
+  border-top: 1px solid #ddd;
+}
+
+.footer-link {
+  color: #111;
+  font-weight: bold;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #6F52ED; /* match your button yellow */
+}
