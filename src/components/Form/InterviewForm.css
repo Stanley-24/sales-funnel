@@ -1,0 +1,96 @@
+.interview-form-container {
+  max-width: 600px;
+  margin: 80px auto;
+  padding: 2.5rem;
+  background: #f7f3ff;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(148, 121, 255, 0.2);
+  font-family: 'Work Sans', sans-serif;
+  color: #4a3f7a;
+}
+
+
+.question {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.input-text {
+  width: 100%;
+  padding: 0.85rem;
+  font-size: 1rem;
+  border: 1px solid #d1c3f0;
+  border-radius: 10px;
+  resize: none;
+  margin-bottom: 1.2rem;
+  background: #fff;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 1rem;
+}
+
+.btn {
+  padding: 0.6rem 1.4rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.25s ease;
+}
+
+.btn.back {
+  background: #ddd;
+  color: #333;
+}
+
+.btn.next {
+  background: #8c6eff;
+  color: #fff;
+}
+
+.btn.submit {
+  background: #5cb85c;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.ai-result {
+  text-align: center;
+  padding: 2rem;
+}
+
+.ai-result h2 {
+  color: #5cb85c;
+  margin-bottom: 1rem;
+}
+
+
+
+.spinner-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid #ccc;
+  border-top-color: #9b59b6;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin: 0 auto 1rem;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
