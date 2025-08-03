@@ -59,7 +59,7 @@ export default function InterviewForm() {
       setTimeout(() => {
         setLoading(false);
         setSubmitted(true);
-      }, 800);
+      }, 1000);
 
     } catch (error) {
       console.error("Error submitting form:", error);
